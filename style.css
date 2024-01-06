@@ -24,7 +24,7 @@ header h1{
 #miCarrusel {
   width: 55%; /* Ajusta el ancho del carrusel */
   margin: auto; /* Centra el carrusel horizontalmente */
-  border: 3px solid red; /* Agrega un borde de 2 píxeles con color gris claro */
+  border: 3px solid black; /* Agrega un borde de 2 píxeles con color gris claro */
   border-radius: 10px; /* Agrega bordes redondeados */
 }
 /* Establece el tamaño de las imágenes en el carrusel */
