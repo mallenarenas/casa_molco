@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding-bottom: 50px;
+  background-color: rgb(212, 175, 45);
+}
+header{
+  background-image: url('volcan1.webp'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta real de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center top; /* Centra la imagen en el fondo del contenedor, mostrando la parte superior */ 
+  background-repeat: no-repeat;
+  height: 40vh; /* Establece la altura del contenedor al 100% del viewport (ventana del navegador) */
+  display: flex;
+  flex-direction: column; /* Establece el diseño en columna para alinear elementos verticalmente */
+  justify-content: flex-start; /* Alinea los elementos al principio del contenedor (parte superior) */
+  align-items: center;
+  color: #fff; /* Cambia el color del texto si es necesario */
+  margin-bottom: 2em ;
+  border: 15px solid rgb(212, 175, 45);
+}
+header h1{
+  align-self: center;
+}
+#miCarrusel {
+  width: 55%; /* Ajusta el ancho del carrusel */
+  margin: auto; /* Centra el carrusel horizontalmente */
+  border: 3px solid red; /* Agrega un borde de 2 píxeles con color gris claro */
+  border-radius: 10px; /* Agrega bordes redondeados */
+}
+/* Establece el tamaño de las imágenes en el carrusel */
+#miCarrusel img {
+  width: 100%; /* Las imágenes ocupan el 100% del ancho del contenedor padre */
+  height: auto; /* Mantiene la proporción original de la imagen */
+}
+.descripcion{
+  color: black;
+  margin: 50px;
+  text-align: center;
+}
+.descripcion .valor{
+  margin: 20px
+}
+ul{
+  list-style: none;
+}
